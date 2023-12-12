@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coming Soon</title>
+    <style>
+        /* Night Theme CSS */
+        body {
+            background-color: rgb(43, 16, 85);
+            color: #fff;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 100px 0;
+            margin: 0;
+        }
+
+        /* Animation */
+        .animation-container {
+            position: absolute;
+            top: 50%;
+            left: 45%;
+            display: inline-block;
+            font-size: 30px;
+            font-weight: bold;
+            animation: blink 1s infinite;
+        }
+
+        @keyframes blink {
+            0% {
+                opacity: 0;
+            }
+            50% {
+                opacity: 1;
+            }
+            100% {
+                opacity: 0;
+            }
+        }
+
+
+        .logo{
+            position: absolute;
+            top: 0%;
+            left: 0%;
+        }
+    </style>
+</head>
+<body>
+    <div class="animation-container">
+        Coming Soon...
+    </div>
+
+    <section>
+        <img src="stars.png" id="stars">
+        <div class="logo">
+        <img src="logo.png" >
+            </div>
+    </section>
+
+</body>
+</html>
